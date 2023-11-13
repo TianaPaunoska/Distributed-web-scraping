@@ -1,0 +1,3 @@
+[distutils.commands]
+bdist_uberegg = uberegg:bdist_uberegg
+

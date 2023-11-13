@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: uberegg
+Version: 0.1.1
+Summary: Uber-egg (egg with dependencies) builder
+Home-page: https://github.com/divtiply/uberegg
+Author: divtiply
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# UberEgg
+
+Uber-egg (egg with dependencies) builder.
+
+Uber-egg contains both the package and all its dependencies in one single egg
+file. It is python equivalent of java uber-jar aka fat-jar.
+
+## Usage
+
+```
+python setup.py bdist_uberegg -r requirements.txt
+```
+
+See command help for other options.
+
+

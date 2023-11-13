@@ -1,0 +1,11 @@
+uberegg>=0.1.1
+requests
+scrapy>=0.17
+urllib3
+w3lib
+
+[test]
+pytest
+pytest-console-scripts
+pytest-cov
+pytest-mock

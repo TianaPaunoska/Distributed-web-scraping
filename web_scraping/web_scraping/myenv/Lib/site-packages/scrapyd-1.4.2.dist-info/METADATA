@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: scrapyd
+Version: 1.4.2
+Summary: A service for running Scrapy spiders, with an HTTP API
+Home-page: https://github.com/scrapy/scrapyd
+Author: Scrapy developers
+Author-email: info@scrapy.org
+License: BSD
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: packaging
+Requires-Dist: twisted (>=17.9)
+Requires-Dist: scrapy (>=2.0.0)
+Requires-Dist: setuptools
+Requires-Dist: w3lib
+Requires-Dist: zope.interface
+Provides-Extra: docs
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-autobuild ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: requests ; extra == 'test'
+
+=======
+Scrapyd
+=======
+|PyPI Version| |Build Status| |Coverage Status| |Python Version| |Pypi Downloads|
+
+Scrapyd is a service for running `Scrapy`_ spiders.
+
+It allows you to deploy your Scrapy projects and control their spiders using an
+HTTP JSON API.
+
+The documentation (including installation and usage) can be found at:
+http://scrapyd.readthedocs.org/
+
+
+.. |PyPI Version| image:: https://img.shields.io/pypi/v/scrapyd.svg
+   :target: https://pypi.org/project/scrapyd/
+.. |Build Status| image:: https://github.com/scrapy/scrapyd/workflows/Tests/badge.svg
+.. |Coverage Status| image:: https://codecov.io/gh/scrapy/scrapyd/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/scrapy/scrapyd
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/scrapyd.svg
+   :target: https://pypi.org/project/scrapyd/
+.. |Pypi Downloads| image:: https://img.shields.io/pypi/dm/scrapyd.svg
+   :target: https://pypi.python.org/pypi/scrapyd/
+.. _Scrapy: https://github.com/scrapy/scrapy

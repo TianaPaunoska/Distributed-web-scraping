@@ -1,0 +1,3 @@
+[console_scripts]
+scrapyd-client = scrapyd_client.cli:main
+scrapyd-deploy = scrapyd_client.deploy:main

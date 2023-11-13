@@ -1,0 +1,2 @@
+[console_scripts]
+scrapydweb = scrapydweb.run:main

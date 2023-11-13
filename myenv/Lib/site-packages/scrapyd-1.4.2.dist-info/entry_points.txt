@@ -1,0 +1,2 @@
+[console_scripts]
+scrapyd = scrapyd.scripts.scrapyd_run:main
